@@ -1,9 +1,10 @@
-@extends('layouts.base')
+@extends('layouts.main')
 
-@section('title')
-    
+@section('page-title')
+    Home Page
 @endsection
 
 @section('page-content')
-    
+
+@dump($comics)
 @endsection
